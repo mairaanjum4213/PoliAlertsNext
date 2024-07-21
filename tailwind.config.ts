@@ -21,6 +21,7 @@ const config: Config = {
         lightGray: "#ececec",
         darkGray: "#3b4352",
         white: "#ffffff",
+        iota:'#6f6f6f'
 
       },
       fontFamily: {
