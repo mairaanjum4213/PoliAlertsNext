@@ -9,7 +9,7 @@ export default function PersonalInfo() {
         <>
             <section
                 className='lg:mx-28  md:mx-14 mx-5 py-5 md:py-10  md:gap-5 gap-5 md:flex-row flex-col flex md:justify-between md:items-start'>
-                <h3 className='text-headingColor font-bold md:text-[2.1rem] text-[1.6rem] md:w-[4   0%]'>
+                <h3 className='text-headingColor font-bold md:text-[2.1rem] text-[1.6rem] md:w-[40%]'>
                     Personal Information
                 </h3>
                 <div

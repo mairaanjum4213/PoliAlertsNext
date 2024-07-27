@@ -13,3 +13,49 @@
 @html{
   font-family: "Manrope";
 }  
+
+
+input[type="range"]::-webkit-slider-runnable-track {
+  /* change color this is line  */
+  background: #053a5f;
+  border-radius: 10px;
+  height: 0.5rem;
+}
+
+
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  margin-top: -0.5rem; 
+   /* change color this is circle  */
+  background-color: #2733a7;
+  height: 1.5rem;
+  border-radius: 50%;
+  width: 1.5rem;    
+}
+
+input[type="range"]::-moz-range-track {
+   /* change color this is line  */
+  background: #053a5f;
+  border-radius: 10px;
+  height: 0.5rem;
+}
+
+/* scroll bar color */
+
+.customScrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.customScrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+ 
+}
+
+
+.customScrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
